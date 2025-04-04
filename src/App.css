@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.divTeste {
+  background-color: #2595e5;
+  padding: 15px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchBox {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.searchBox > input {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+  width: 100%;
+  outline: none;
+  color: black;
+  cursor: pointer;
+}
+
+.searchBox > button {
+  background-color: #fff;
+  color: black;
+  outline: none;
+  border-radius: 5px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

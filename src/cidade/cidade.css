@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cidadeContent {
+  background-color: #0033fe;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cidadeContent > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cidadeContent > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cidadeContent > div > div > strong {
+  font-size: xx-large;
+}
+
+.cidadeContent > div > div > p {
+  font-size: large;
+}

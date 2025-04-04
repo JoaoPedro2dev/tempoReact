@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.botoesBox {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.botoesBox > button {
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+}
+
+.botoesBox > button.selected {
+  background-color: #dbdbdb;
+}
